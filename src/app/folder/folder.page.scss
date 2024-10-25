@@ -1,0 +1,81 @@
+/* Styling untuk header */
+ion-header {
+  --background: rgba(136, 145, 178, 0.7); /* Warna pastel ungu gelap dengan transparansi */
+  --color: #333; /* Warna teks */
+}
+
+ion-toolbar {
+  --background: #4B4F63; /* Latar belakang toolbar dengan warna abu-abu ungu yang gelap */
+  --color: #EEE; /* Warna teks putih lembut */
+}
+
+ion-title {
+  font-size: 1.4em;
+  font-weight: bold;
+  text-align: center;
+  color: #EEE; /* Warna teks header */
+}
+
+/* Styling untuk konten */
+ion-content {
+  --background: #2E2F38; /* Latar belakang konten dengan warna pastel abu-abu gelap */
+}
+
+/* Container styling */
+#container {
+  text-align: center;
+  padding: 20px;
+}
+
+.capitalize {
+  text-transform: capitalize;
+  color: #BBB; /* Warna abu-abu terang untuk teks */
+  font-size: 1.3em;
+}
+
+/* Styling untuk link */
+a {
+  color: #90A4AE; /* Warna biru abu-abu pastel yang gelap */
+  text-decoration: underline;
+}
+
+/* Styling untuk Card */
+#card {
+  padding: 20px;
+}
+
+ion-card {
+  --background: #3A3D4A; /* Warna latar belakang card dengan pastel abu-abu gelap */
+  --color: #EEE; /* Warna teks pada card, abu terang */
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Efek bayangan ringan */
+}
+
+ion-card-title {
+  font-size: 1.6em;
+  color: #0adae9c2; /* Warna teks judul abu-abu pastel gelap */
+}
+
+ion-card-subtitle {
+  font-size: 1.2em;
+  color: #78909C; /* Warna subtitle abu-abu pastel medium */
+}
+
+/* Styling untuk Button */
+ion-button {
+  --background: #546E7A; /* Warna latar belakang biru abu pastel yang lebih gelap */
+  --color: white; /* Warna teks pada tombol */
+  font-size: 1.2em;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+ion-button ion-icon {
+  margin-right: 10px;
+}
+
+ion-card-content p {
+  color: #AAA; /* Warna teks konten card abu yang lebih lembut */
+  line-height: 1.5;
+  font-size: 1.1em;
+}
