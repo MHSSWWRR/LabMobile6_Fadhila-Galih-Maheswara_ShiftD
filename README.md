@@ -32,6 +32,7 @@ Shift Baru  : D
     </ion-content>
 
 5. Menambahkan gaya menggunakan CSS.
+    
     ion-card {
     --background: #f4f4f4; /* Warna latar belakang card */
     border-radius: 10px;
